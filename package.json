@@ -5,7 +5,10 @@
   "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "test",
+    "build":"webpack --config webpack.prod.js",
+    "dev":"webpack --config webpack.dev.js",
+    "ssr":"webpack --config webpack.ssr.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
