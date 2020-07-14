@@ -9,9 +9,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"webpack --config webpack.prod.js",
-    "dev":"webpack --config webpack.dev.js",
-    "ssr":"webpack --config webpack.ssr.js"
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js",
+    "ssr": "webpack --config webpack.ssr.js"
   },
   "author": "thomas",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "cssnano": "^4.1.10",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "glob": "^7.1.6",
+    "html-webpack-externals-plugin": "^3.8.0",
     "html-webpack-plugin": "^4.3.0",
     "less": "^3.11.3",
     "less-loader": "^6.2.0",
