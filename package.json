@@ -21,6 +21,8 @@
     "eslint": "^7.5.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
+    "glob-all": "^3.2.1",
+    "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
   },
   "dependencies": {
